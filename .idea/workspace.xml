@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87d87093-8c23-420b-bf61-04eecd56498f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\maven\apache-maven-3.6.3\maven-repository" />
+        <option name="mavenHome" value="F:/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1m09pxMBFVcFfLjPfBvhhbOhE9m" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu/springcloud" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\test\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderMain80">
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderMain80" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87d87093-8c23-420b-bf61-04eecd56498f" name="Default Changelist" comment="" />
+      <created>1608619828547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608619828547</updated>
+      <workItem from="1608619836715" duration="8080000" />
+      <workItem from="1608629306210" duration="2143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="301" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608622835256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="301" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608622835256" />
+    <state x="690" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608621890010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608621890010" />
+    <state x="763" y="437" key="Github.CreateGistDialog" timestamp="1608631473129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="437" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608631473129" />
+    <state x="822" y="416" width="479" height="207" key="Github.ShareDialog" timestamp="1608631439385">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="822" y="416" width="479" height="207" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608631439385" />
+    <state width="1366" height="274" key="GridCell.Tab.0.bottom" timestamp="1608630636128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1366" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608630636128" />
+    <state width="1366" height="274" key="GridCell.Tab.0.center" timestamp="1608630636128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1366" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608630636128" />
+    <state width="1366" height="274" key="GridCell.Tab.0.left" timestamp="1608630636128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1366" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608630636128" />
+    <state width="1366" height="274" key="GridCell.Tab.0.right" timestamp="1608630636128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1366" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608630636128" />
+    <state width="1366" height="274" key="GridCell.Tab.1.bottom" timestamp="1608630636128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1366" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608630636128" />
+    <state width="1366" height="274" key="GridCell.Tab.1.center" timestamp="1608630636128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1366" height="274" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608630636128" />
+    <state width="1366" height="274" key="GridCell.Tab.1.left" timestamp="1608630636128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1366" height="274" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608630636128" />
+    <state width="1366" height="274" key="GridCell.Tab.1.right" timestamp="1608630636128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1366" height="274" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608630636128" />
+    <state x="504" y="330" key="Registry" timestamp="1608629136376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="504" y="330" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1608629136376" />
+    <state x="453" y="163" key="SettingsEditor" timestamp="1608629091158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608629091158" />
+    <state x="611" y="179" key="new project wizard" timestamp="1608629480754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="611" y="179" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1608629480754" />
+  </component>
+</project>
