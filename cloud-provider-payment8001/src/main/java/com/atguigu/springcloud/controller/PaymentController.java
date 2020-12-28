@@ -60,4 +60,22 @@ public class PaymentController {
         }
         return this.discoveryClient;
     }
+
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB(){
+        return serverPort;
+    }
+
+
+    @GetMapping("/payment/fegin/timeout")
+    public String timeout(){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return serverPort;
+    }
+
+
 }

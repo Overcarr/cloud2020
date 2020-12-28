@@ -4,11 +4,17 @@ package com.atguigu.springcloud.controller;
 
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
+import com.atguigu.springcloud.lb.MyLB;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
+
+import java.net.URI;
+import java.util.List;
 
 @RestController
 public class OrderController {
@@ -18,6 +24,10 @@ public class OrderController {
 
     @Autowired
     private RestTemplate restTemplate;
+    @Autowired
+    private DiscoveryClient discoveryClient;
+    @Autowired
+    private MyLB myLB;
 
     @GetMapping("/consumer/payment/create")
     public CommonResult<Payment>   create(Payment payment){
@@ -33,4 +43,17 @@ public class OrderController {
             return new CommonResult(444,"没有对应记录，查询ID："+id,null);
         }
     }
+
+    @GetMapping(value = "consumer/payment/lb")
+    public String getPaymentLB(){
+        List<ServiceInstance> instances = discoveryClient.getInstances("cloud-payment-service");
+        if (instances == null || instances.size() <= 0){
+            return null;
+        }
+        ServiceInstance serviceInstance = myLB.instances(instances);
+        URI uri = serviceInstance.getUri();
+        return restTemplate.getForObject(uri+"/payment/lb",String.class);
+    }
+
+
 }
